@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <title>This Human Disease Called Friendship</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="alt.ico" />
+  <script>
+
+    initBlorbos = (blorbos) => {
+        const sources = {
+          solemn: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/thesolemn.png',
+          twin2: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/thetwins2.png',
+          _: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/_.png',
+          twin1: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/thetwins1.png',
+          reflection: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/thereflection.png',
+          match: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/thematch.png',
+          shot: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/theshot.png',
+          end: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/theend.png',
+          k: 'http://farragofiction.com/TwoGayJokes/Stories/MurderGameIcons/k.png', //doesn't deserve a title, bastard man
+        }
+        const ele = document.querySelector("#cast");
+        if(!ele){
+          console.error("JR NOTE: cannot find cast section. Did you REALLY mean to call this?");
+          return;
+        }
+        //it is horseshoes that our eye covered blorbo is a corruption avatar
+
+        for(let blorbo of blorbos){
+          const img = document.createElement("img");
+          img.className = "blorbo";
+          img.src = sources[blorbo];
+          ele.append(img);
+        }
+        //stress test
+        /*
+        for(let source of Object.values(sources)){
+          const img = document.createElement("img");
+          img.className = "blorbo";
+          img.src = source;
+          ele.append(img);
+        }*/
+    }
+
+    window.onload = () => {
+      initBlorbos(["_","shot"])
+    }
+
+    window.onclick = () => {
+      document.querySelector("#muzak").play();
+      document.querySelector("#story").style.display = "block";
+      document.querySelector("#euphoria").style.display = "none";
+
+    }
+  </script>
+</head>
+
+
+<body>
+
+  <audio id="muzak">
+    <source src="sounds.mp3" type="audio/mpeg">
+    If you're reading this, audio isn't supported.
+  </audio>
+  <div id="container">
+    <button id="euphoria">Click To Experience Nothing</button>
+
+    <div id="story">
+      <p><br></p>
+      <p>It was imperative that they maintained distance from extracurricular activities. Yongki had to be taken care of, K managed, the training team corralled. The world they resided in was dangerous, every day a new monster, a new anomaly, a new vital part of how reality worked. They could not afford to falter in their mission, and they were to only accept death as a reward.</p>
+      <p><br></p>
+      <p>And yet there he was in Parker&rsquo;s cavern, their head on his lap as they laid on his sofa, made only sanitary by the rotted pillow between them.&nbsp;</p>
+      <p><br></p>
+      <p>Parker rolled the horrid computer closer to them, its cables caught underneath the stand&rsquo;s wheels; the machine was the only light in the room, its harsh electric glow bouncing off his glasses. &ldquo;This okay?&rdquo;&nbsp;</p>
+      <p><br></p>
+      <p>&ldquo;Hm.&rdquo; Vic raised their head somewhat to assess the verbal damage Parker sought to wreak. &ldquo;Take out where you call them a loveless, dickless, mouth-breathing cocksucker&hellip;&rdquo; they pointed at the words as they read, &ldquo;unworthy of love or even the vaguest touch of a woman&hellip; and that string of slurs&hellip; and also the part where you leak their address.&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;That&rsquo;s everything I wrote.&rdquo; He crossed his arms. &ldquo;What am I supposed to reply?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;I don&rsquo;t agree with you, have a nice day?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;But I don&rsquo;t&nbsp;want&nbsp;them to have a nice day.&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;How about &lsquo;your take is incomprehensible, never become a writer&rsquo;?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;Uh&hellip;&rdquo; Parker stared off at the screen, then he nodded-- slowly at first, as if savoring the thought, then with a frantic pace. &ldquo;Yeah. I like that. Okay.&rdquo; His hands reached for the keyboard, typing up a storm&hellip;&nbsp;</p>
+      <p><br></p>
+      <p>Then he stopped. Fingers hovered over the keys for a second before he slumped back onto the sofa, hitting the power button on the display.</p>
+      <p><br></p>
+      <p>&ldquo;Is something wrong?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;Mmm&hellip; no.&rdquo; He brushed his fingers through Vic&rsquo;s hair, rubbing his knuckles against the base of their crown. &ldquo;Not as angry anymore.&rdquo;</p>
+      <p><br></p>
+      <p>One would assume that someone with their disposition would stop someone as filthy as Parker from touching them like that. Instead, Vic leaned into his touch, exposing their neck to give him better reach, then he responded in kind, cut-short nails rubbing at the space beneath their chin.&nbsp;</p>
+      <p><br></p>
+      <p>They would&rsquo;ve passed out right there if Parker hadn&rsquo;t spoken up. &ldquo;Am I your friend?&rdquo;&nbsp;</p>
+      <p><br></p>
+      <p>Vic put their hand over his, keeping it still on their head. &ldquo;What?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;Uh&hellip; sorry. Thinking out loud,&rdquo; he mumbled, his coat covering his mouth as he retreated into it like a turtle. &ldquo; I know you&rsquo;re my friend. I wanna know if I&rsquo;m yours.&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;Parker&hellip;&rdquo; they couldn&rsquo;t help but give out a tired chuckle at the absurdity of the question. &ldquo;Do you think I&rsquo;d let just anyone pet me? That this is something I partake in often?&rdquo;</p>
+      <p><br></p>
+      <p>&ldquo;Probably not.&rdquo;</p>
+      <p><br></p>
+      <p>They laid back down. &ldquo;Then we&rsquo;re friends.&rdquo;</p>
+      <p><br></p>
+      <p>Friends. Parker only hummed in response, back to nudging at them-- a surprisingly tepid reaction compared to his usual outbursts of energy. Perhaps he was asking because he wanted to hear it from them, or it was simply a passing whim&hellip; it wasn&rsquo;t their place to figure it out, and frankly, they didn&rsquo;t want to.</p>
+      <p><br></p>
+      <p>It wouldn&rsquo;t be long before they closed their eyes, heading off into yet another dreamless sleep. They would never know Parker followed soon after, clutching onto their coat like a blanket; a quiet moment in his mind, free of any impulse, as they both drifted into the darkness around them.</p>
+      <p><br></p>
+      <p>Perhaps some voids were worth being engulfed by&hellip; at least, just once.</p>
+      <p><br></p>
+      <p><br></p>
+    </div>
+
+  </div>
+
+  <div id="cast"></div>
+</body>
+
+</html>
